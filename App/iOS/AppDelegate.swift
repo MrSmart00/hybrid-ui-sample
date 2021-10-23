@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import MyLibrary
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +17,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window = .init(frame: UIScreen.main.bounds)
         window?.rootViewController = .init()
         window?.makeKeyAndVisible()
+        
+        Sample.print()
         return true
     }
 

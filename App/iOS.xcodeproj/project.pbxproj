@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C40583E127244FC4005C4357 /* hybrid-ui-sample in Resources */ = {isa = PBXBuildFile; fileRef = C40583E027244FC4005C4357 /* hybrid-ui-sample */; };
 		C4EEBEE2272441A5001CDA42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4EEBEE1272441A5001CDA42 /* AppDelegate.swift */; };
 		C4EEBEEB272441A8001CDA42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4EEBEEA272441A8001CDA42 /* Assets.xcassets */; };
 		C4EEBEEE272441A8001CDA42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4EEBEEC272441A8001CDA42 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C40583E027244FC4005C4357 /* hybrid-ui-sample */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "hybrid-ui-sample"; path = ..; sourceTree = "<group>"; };
 		C4EEBEDE272441A5001CDA42 /* iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4EEBEE1272441A5001CDA42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C4EEBEEA272441A8001CDA42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -34,6 +36,7 @@
 		C4EEBED5272441A5001CDA42 = {
 			isa = PBXGroup;
 			children = (
+				C40583E027244FC4005C4357 /* hybrid-ui-sample */,
 				C4EEBEE0272441A5001CDA42 /* iOS */,
 				C4EEBEDF272441A5001CDA42 /* Products */,
 			);
@@ -117,6 +120,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4EEBEEE272441A8001CDA42 /* LaunchScreen.storyboard in Resources */,
+				C40583E127244FC4005C4357 /* hybrid-ui-sample in Resources */,
 				C4EEBEEB272441A8001CDA42 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,6 +269,7 @@
 		C4EEBEF3272441A8001CDA42 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
