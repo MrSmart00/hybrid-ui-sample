@@ -6,7 +6,7 @@
 //
 
 import UIKit
-import MyLibrary
+import Splash
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,10 +15,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         window = .init(frame: UIScreen.main.bounds)
-        window?.rootViewController = .init()
+        window?.rootViewController = SplashViewController()
         window?.makeKeyAndVisible()
-        
-        Sample.print()
         return true
     }
 

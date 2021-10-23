@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C40583E127244FC4005C4357 /* hybrid-ui-sample in Resources */ = {isa = PBXBuildFile; fileRef = C40583E027244FC4005C4357 /* hybrid-ui-sample */; };
+		C43A33D727245F1C000D4D1C /* Splash in Frameworks */ = {isa = PBXBuildFile; productRef = C43A33D627245F1C000D4D1C /* Splash */; };
 		C4EEBEE2272441A5001CDA42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4EEBEE1272441A5001CDA42 /* AppDelegate.swift */; };
 		C4EEBEEB272441A8001CDA42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4EEBEEA272441A8001CDA42 /* Assets.xcassets */; };
 		C4EEBEEE272441A8001CDA42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4EEBEEC272441A8001CDA42 /* LaunchScreen.storyboard */; };
@@ -27,18 +28,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C43A33D727245F1C000D4D1C /* Splash in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C43A33D327245C24000D4D1C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C4EEBED5272441A5001CDA42 = {
 			isa = PBXGroup;
 			children = (
 				C40583E027244FC4005C4357 /* hybrid-ui-sample */,
 				C4EEBEE0272441A5001CDA42 /* iOS */,
 				C4EEBEDF272441A5001CDA42 /* Products */,
+				C43A33D327245C24000D4D1C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,6 +87,9 @@
 			dependencies = (
 			);
 			name = iOS;
+			packageProductDependencies = (
+				C43A33D627245F1C000D4D1C /* Splash */,
+			);
 			productName = iOS;
 			productReference = C4EEBEDE272441A5001CDA42 /* iOS.app */;
 			productType = "com.apple.product-type.application";
@@ -289,7 +302,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -315,7 +328,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -341,6 +354,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C43A33D627245F1C000D4D1C /* Splash */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Splash;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C4EEBED6272441A5001CDA42 /* Project object */;
 }
